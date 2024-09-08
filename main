@@ -1,0 +1,53 @@
+# User Authentication System
+
+This is a simple web-based user authentication system that consists of a login and signup page. The system uses **HTML**, **CSS**, and **JavaScript**, with user data stored locally in the browser using **localStorage**.
+
+## Table of Contents
+- [Project Structure](#project-structure)
+- [Features](#features)
+- [How to Use](#how-to-use)
+- [Technologies Used](#technologies-used)
+- [How to Run](#how-to-run)
+
+## Project Structure
+
+- `LoginPage.html`: The login page where users can enter their credentials and log in to the system.
+- `Signup.html`: The signup page where users can create a new account.
+  
+## Features
+
+1. **Signup Page**:
+    - Allows users to create an account by entering a username and password.
+    - Validates input to ensure all fields are filled.
+    - Stores user information securely in `localStorage`.
+
+2. **Login Page**:
+    - Enables users to log in with their credentials.
+    - Validates login attempts based on the stored user data.
+    - Displays an error message if login credentials are invalid.
+  
+## How to Use
+
+1. **Signup Process**:
+    - Navigate to `Signup.html`.
+    - Enter a username and password, then click the "Signup" button.
+    - On successful signup, a success message will be displayed, and you can proceed to log in.
+
+2. **Login Process**:
+    - Navigate to `LoginPage.html`.
+    - Enter your username and password, then click the "Login" button.
+    - If credentials match the stored user data, you will be redirected to the main page.
+
+## Technologies Used
+
+- **HTML5**: For structuring the web pages.
+- **CSS3**: For styling the pages.
+- **JavaScript**: For handling client-side logic and data storage.
+
+## How to Run
+
+1. Download the project files and open them locally.
+2. Open the `Signup.html` page in your web browser to create an account.
+3. After signing up, open the `LoginPage.html` to log in using the created credentials.
+
+Feel free to modify and extend this project by adding more features such as password recovery, session management, or database integration.
